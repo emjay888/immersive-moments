@@ -3,10 +3,10 @@
     "database": "(default)",
     "location": "us-central1",
     "rules": "firestore.rules",
-    "indexes": "Firestore indexes allow you to perform complex queries while"
+    "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "Your public directory is the folder (relative to your project directory) that",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
